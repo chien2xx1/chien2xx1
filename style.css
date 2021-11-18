@@ -186,9 +186,7 @@ body {
     display: none;
     
 }
- .imgg {
-    max-width: 300px;
-}
+
 
 .if_else {
     position: absolute;
@@ -232,6 +230,9 @@ body {
     top: 57.5%;
     font-size: 20px;
     
+}
+.imgg{
+    max-with: 300px;
 }
 @keyframes add {
     from{
