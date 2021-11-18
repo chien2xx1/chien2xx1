@@ -100,7 +100,7 @@ body {
     transform: translateX(-50%);
     border: solid #FC3A6D 5px;
 }
-.icon {
+.icon  {
     position: absolute;
     right: 0;
     top: 0;
@@ -159,7 +159,9 @@ body {
     border-radius: 5px;
     background-color: #ffd;
 }
-
+.imgg {
+    max-width: 300px;
+}
 .rep.open {
     display: block;
 }
@@ -230,9 +232,6 @@ body {
     top: 57.5%;
     font-size: 20px;
     
-}
-.imgg{
-    max-with: 300px;
 }
 @keyframes add {
     from{
