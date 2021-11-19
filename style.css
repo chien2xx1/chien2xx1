@@ -39,11 +39,11 @@ body {
 }
 #may {
     display: inline;
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 150px;
     transition: transform 1s ease-in-out;
 }
-#header:hover #may {
+#mads:hover #may {
     animation: left-to-right 2s infinite linear;
 }
 @keyframes left-to-right {
@@ -73,8 +73,8 @@ body {
 }
 .btn {
     position: absolute;
-    top: 65%;
-    left: 72%;
+    top: 64%;
+    left: 58%;
     background-color: #fff;
     color: #FC3A6D;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ body {
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    border: solid #FC3A6D 5px;
+    border: none;
 }
 .icon  {
     position: absolute;
@@ -143,21 +143,23 @@ body {
     position: absolute;
     top: 90%;
     left: 20%;
-    border: solid 1px #FC3A6D;
+    border: none;
     border-radius: 5px;
-    padding: 6px 10px;
-    background-color: #ffd;
-    color: crimson;
+    padding: 6px 20px;
+    width: auto;
+    background-color: #FC3A6D;
+    color: #ffff;
 }
 
 .no {
     position: absolute;
     top: 90%;
     right: 20%;
-    border: solid 1px #FC3A6D;
+    border: none;
     padding: 6px 10px;
     border-radius: 5px;
-    background-color: #ffd;
+    background-color: #FC3A6D;
+    color: #ffff;
 }
 .imgg {
     max-width: 300px;
@@ -169,13 +171,18 @@ body {
 .btn:hover {
     background-color: #f1d6e0;
 }
-
+#fomt{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
 .if_yes {
     position: absolute;
     top: 21%;
     left: 30%;
     text-align: center;
-    border: solid 5px #FC3A6D;
+    border: none;
     padding: 90px 90px;
     border-radius: 5px;
     background-image: linear-gradient(to bottom right, #FF4FAD,#FFA2A2);
@@ -195,7 +202,7 @@ body {
     top: 35%;
     left: 39%;
     text-align: center;
-    border: solid 5px #FC3A6D;
+    border: none;
     padding: 90px 90px;
     border-radius: 5px;
     background-image: linear-gradient(to bottom right, #FF4FAD,#FFA2A2);
@@ -207,7 +214,13 @@ body {
     transform-origin: left 20px;
     display: none;
 }
-
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+}
 .if_yes.opens {
     display: block;
 }
@@ -233,6 +246,21 @@ body {
     font-size: 20px;
     
 }
+#mads {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items:center;
+    position: relative;
+    left: -10px;
+}
+.mad {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
 @keyframes add {
     from{
         opacity: 0;
@@ -244,3 +272,18 @@ body {
     }
 }
 
+@media (min-width: 740px) and (max-width: 1024px){
+ #header {
+
+ }
+ body {
+    background-image: url(img/Untitled-1.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat";
+
+}
+}
+@media (max-width: 739px) {
+
+}
